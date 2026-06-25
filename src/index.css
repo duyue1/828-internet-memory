@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== 基础全局样式 ===== */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-900 min-h-screen
+           dark:from-dark-bg dark:via-dark-card dark:to-dark-bg dark:text-dark-text;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  a { @apply no-underline; }
+  ::selection { @apply bg-primary-200 text-primary-900 dark:bg-primary-800 dark:text-primary-100; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-primary-400; }
+}
+
+/* ===== 组件工具样式 ===== */
+@layer components {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-sm border border-white/20 shadow-lg shadow-gray-200/50
+           dark:bg-dark-card/80 dark:border-dark-border/20 dark:shadow-black/20;
+  }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-blue-500
+           dark:from-primary-400 dark:to-blue-300;
+  }
+  .hover-lift {
+    @apply transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg;
+  }
+
+  /* 搜索高亮 */
+  .search-highlight {
+    @apply bg-yellow-200 text-yellow-900 px-0.5 rounded
+           dark:bg-yellow-600/40 dark:text-yellow-200;
+  }
+
+  /* 页面过渡容器 */
+  .page-enter {
+    animation: pageEnter 0.3s ease-out both;
+  }
+  .page-exit {
+    animation: pageExit 0.15s ease-in both;
+  }
+}
+
+/* ===== 滚动条 ===== */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { @apply bg-transparent; }
+::-webkit-scrollbar-thumb { @apply bg-gray-300 dark:bg-dark-border rounded-full hover:bg-gray-400 dark:hover:bg-gray-500 transition-colors; }
+
+/* ===== 动画 ===== */
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+@keyframes slideDown { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes scaleIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+@keyframes pulseDot { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+@keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+@keyframes pageEnter { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pageExit { from { opacity: 1; transform: translateY(0); } to { opacity: 0; transform: translateY(-4px); } }
+
+.animate-fade-in-up { animation: fadeInUp 0.4s ease-out both; }
+.animate-fade-in { animation: fadeIn 0.3s ease-out both; }
+.animate-fade-out { animation: fadeOut 0.2s ease-out both; }
+.animate-slide-down { animation: slideDown 0.3s ease-out both; }
+.animate-scale-in { animation: scaleIn 0.3s ease-out both; }
+.animate-pulse-dot { animation: pulse-dot 1.5s ease-in-out infinite; }
+.animate-shimmer { background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%); background-size: 200% 100%; animation: shimmer 1.5s ease-in-out infinite; }
+.dark .animate-shimmer { background: linear-gradient(90deg, #1e293b 25%, #334155 50%, #1e293b 75%); background-size: 200% 100%; }
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* ===== 骨架 ===== */
+.skeleton { @apply rounded-lg bg-gray-100 dark:bg-dark-border animate-shimmer; }
+.skeleton-text { @apply skeleton h-4; }
+.skeleton-title { @apply skeleton h-6 w-3/4; }
+.skeleton-badge { @apply skeleton h-5 w-16 rounded-full; }
+
+/* ===== 响应式 ===== */
+@media (max-width: 640px) { html { font-size: 15px; } }

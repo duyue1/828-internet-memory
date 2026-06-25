@@ -1,0 +1,839 @@
+{
+  "events": [
+    {
+      "id": "evt-km-blwxc",
+      "title": "昆明别样幸福城烂尾楼事件",
+      "summary": "昆明\"别样幸福城\"项目于2011年开工开盘，原定2015年交付。因开发商佳达利地产资金链断裂，项目全面停工成为烂尾楼。2020年部分业主因经济压力被迫搬入无水无电的烂尾楼居住，经媒体报道引发全国关注，推动政府介入复工续建。",
+      "status": "unresolved",
+      "subLabel": "watching",
+      "category": "社会",
+      "tags": [
+        "烂尾楼",
+        "维权",
+        "民生"
+      ],
+      "keywords": [
+        "昆明烂尾楼",
+        "别样幸福城",
+        "业主入住烂尾楼",
+        "佳达利地产"
+      ],
+      "startDate": "2011-06-01",
+      "endDate": null,
+      "location": "云南省昆明市官渡区巫家坝片区",
+      "relatedPeople": [
+        "昆明佳达利房地产开发经营有限公司"
+      ],
+      "sources": [
+        {
+          "title": "昆明市官渡区政府关于\"别样幸福城\"复工续建通报",
+          "url": "https://www.thepaper.cn/newsDetail_forward_8506785",
+          "date": "2020-08-27"
+        },
+        {
+          "title": "央视新闻：业主住进烂尾楼 昆明别样幸福城之困",
+          "url": "https://m.weibo.cn/status/4528362891745623",
+          "date": "2020-07-12"
+        },
+        {
+          "title": "澎湃新闻：昆明别样幸福城烂尾多年 业主被迫入住",
+          "url": "https://www.thepaper.cn/newsDetail_forward_8506785",
+          "date": "2020-07-12"
+        },
+        {
+          "title": "新京报：烂尾楼里的\"幸福城\"",
+          "url": "https://www.bjnews.com.cn/detail/159652864614717.html",
+          "date": "2020-08-04"
+        },
+        {
+          "title": "百度百科：别样幸福城",
+          "url": "https://baike.baidu.com/item/%E5%88%AB%E6%A0%B7%E5%B9%B8%E7%A6%8F%E5%9F%8E",
+          "date": "2024-01-01"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "tl-km-001",
+          "date": "2011-06-01",
+          "type": "trigger",
+          "title": "项目开工并开盘销售",
+          "description": "昆明佳达利地产启动上苜蓿村城中村改造项目，命名\"别样蓝天\"（后改名为\"别样幸福城\"），正式开工并开盘销售，吸引大量刚需购房者。",
+          "sourceUrl": "https://baike.baidu.com/item/%E5%88%AB%E6%A0%B7%E5%B9%B8%E7%A6%8F%E5%9F%8E",
+          "sourceLabel": "media",
+          "mediaName": "公开资料",
+          "sortOrder": 1,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-km-002",
+          "date": "2015-12-01",
+          "type": "progress",
+          "title": "开发商资金链断裂停工",
+          "description": "开发商佳达利地产资金链断裂，项目全面停工，无法按期交房。购房者开始漫长维权之路。",
+          "sourceUrl": "https://www.thepaper.cn/newsDetail_forward_8506785",
+          "sourceLabel": "media",
+          "mediaName": "澎湃新闻",
+          "sortOrder": 2,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-km-003",
+          "date": "2016-01-01",
+          "type": "progress",
+          "title": "业主维权与政府介入",
+          "description": "业主多次向政府反映、集体维权，要求复工交房。官渡区政府介入协调，尝试推动项目重组，但进展甚微。",
+          "sourceUrl": "https://www.bjnews.com.cn/detail/159652864614717.html",
+          "sourceLabel": "media",
+          "mediaName": "新京报",
+          "sortOrder": 3,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-km-004",
+          "date": "2020-07-10",
+          "type": "turn",
+          "title": "业主入住烂尾楼引爆舆论",
+          "description": "部分业主因无力同时支付房租和房贷，被迫搬入尚未完工的烂尾楼中居住。视频在微博、抖音广泛传播，#别样幸福城# 登上热搜，全国关注。",
+          "sourceUrl": "https://m.weibo.cn/status/4528362891745623",
+          "sourceLabel": "media",
+          "mediaName": "央视新闻",
+          "sortOrder": 4,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-km-005",
+          "date": "2020-08-27",
+          "type": "turn",
+          "title": "政府承诺复工续建",
+          "description": "在舆论压力下，昆明市官渡区政府发布通报，承诺推进复工续建。施工队正式进场，计划2021年10月底前竣工交房。",
+          "sourceUrl": "https://www.thepaper.cn/newsDetail_forward_8506785",
+          "sourceLabel": "media",
+          "mediaName": "澎湃新闻",
+          "sortOrder": 5,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-km-006",
+          "date": "2021-06-01",
+          "type": "progress",
+          "title": "进入破产重整程序",
+          "description": "项目正式进入破产重整程序，法院指定管理人。云南官房建筑集团被确定为续建施工单位。",
+          "sourceUrl": "https://baike.baidu.com/item/%E5%88%AB%E6%A0%B7%E5%B9%B8%E7%A6%8F%E5%9F%8E",
+          "sourceLabel": "media",
+          "mediaName": "公开资料",
+          "sortOrder": 6,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-km-007",
+          "date": "2022-12-15",
+          "type": "result",
+          "title": "4号地块逐步交付",
+          "description": "4号地块住宅部分逐步完成建设，陆续向业主交付。但小区配套设施（水电、绿化、消防等）未完全到位，房产证尚未办理。",
+          "sourceUrl": "https://baike.baidu.com/item/%E5%88%AB%E6%A0%B7%E5%B9%B8%E7%A6%8F%E5%9F%8E",
+          "sourceLabel": "media",
+          "mediaName": "公开资料",
+          "sortOrder": 7,
+          "aiGenerated": false
+        }
+      ],
+      "updatesCount": 7,
+      "credibility": "verified",
+      "aiGenerated": false,
+      "createdAt": "2025-07-18T00:00:00+08:00",
+      "updatedAt": "2025-07-18T00:00:00+08:00"
+    },
+    {
+      "id": "evt-sd-yuhuan",
+      "title": "山东于欢自卫维权案（\"刺死辱母者\"案）",
+      "summary": "2016年4月，山东聊城女企业家苏银霞因借高利贷无法偿还，被催债人员非法拘禁并当众侮辱。其子于欢目睹母亲受辱，情绪失控下持刀捅刺催债人员，致1死2重伤1轻伤。2017年2月一审以故意伤害罪判处于欢无期徒刑。2017年3月经媒体报道引爆全国舆论，山东省高院于2017年6月23日二审改判有期徒刑5年（防卫过当）。该案成为中国正当防卫认定的标志性案件。",
+      "status": "resolved",
+      "category": "法治",
+      "tags": [
+        "正当防卫",
+        "高利贷",
+        "舆论监督",
+        "司法改革"
+      ],
+      "keywords": [
+        "于欢",
+        "刺死辱母者",
+        "正当防卫",
+        "防卫过当",
+        "山东聊城"
+      ],
+      "startDate": "2016-04-14",
+      "endDate": "2020-06-17",
+      "location": "山东省聊城市冠县",
+      "relatedPeople": [
+        "于欢",
+        "苏银霞",
+        "吴学占",
+        "杜志浩"
+      ],
+      "sources": [
+        {
+          "title": "聊城市中级人民法院（2016）鲁15刑初33号一审判决书",
+          "url": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html?docId=6f8a4e5c3f1b4d4d9f83a80901035582",
+          "date": "2017-02-17"
+        },
+        {
+          "title": "山东省高级人民法院（2017）鲁刑终151号二审判决书",
+          "url": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html?docId=358b4a55f3c24d8d9f83a80901035582",
+          "date": "2017-06-23"
+        },
+        {
+          "title": "南方周末：《刺死辱母者》",
+          "url": "https://www.infzm.com/contents/117798",
+          "date": "2017-03-23"
+        },
+        {
+          "title": "最高人民检察院派员赴山东调查于欢案",
+          "url": "https://www.spp.gov.cn/spp/zdgz/201703/t20170326_184930.shtml",
+          "date": "2017-03-26"
+        },
+        {
+          "title": "最高法关于正当防卫制度的指导意见（引用于欢案）",
+          "url": "https://www.court.gov.cn/zixun-xiangqing-104262.html",
+          "date": "2020-09-03"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "tl-yh-001",
+          "date": "2016-04-14",
+          "time": "16:00",
+          "type": "trigger",
+          "title": "非法拘禁与极端侮辱",
+          "description": "吴学占等10余人将苏银霞、于欢控制在公司接待室。催债人员持续辱骂、殴打，杜志浩当众脱下裤子极端侮辱苏银霞。民警接警到场仅简单询问便离开。",
+          "sourceUrl": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html?docId=6f8a4e5c3f1b4d4d9f83a80901035582",
+          "sourceLabel": "official",
+          "mediaName": "聊城中院判决书",
+          "sortOrder": 1,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-yh-002",
+          "date": "2016-04-14",
+          "time": "22:00",
+          "type": "trigger",
+          "title": "于欢持刀捅刺致人死亡",
+          "description": "于欢欲跟随民警离开被催债人员阻拦并暴力围攻，从桌上摸到水果刀乱捅，致杜志浩等4人被捅伤。杜志浩因未及时就医失血性休克死亡。",
+          "sourceUrl": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html?docId=6f8a4e5c3f1b4d4d9f83a80901035582",
+          "sourceLabel": "official",
+          "mediaName": "聊城中院判决书",
+          "sortOrder": 2,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-yh-003",
+          "date": "2017-02-17",
+          "type": "progress",
+          "title": "一审无期徒刑判决",
+          "description": "聊城市中级人民法院一审判处于欢犯故意伤害罪，判处无期徒刑，剥夺政治权利终身。法院未认定正当防卫。于欢不服提出上诉。",
+          "sourceUrl": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html?docId=6f8a4e5c3f1b4d4d9f83a80901035582",
+          "sourceLabel": "official",
+          "mediaName": "聊城中院",
+          "sortOrder": 3,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-yh-004",
+          "date": "2017-03-23",
+          "type": "turn",
+          "title": "《刺死辱母者》引爆全网",
+          "description": "《南方周末》发表《刺死辱母者》报道详细还原案发经过，迅速引爆全网。微博、微信被刷屏，人民日报、央视等主流媒体相继评论。#于欢# 成为现象级话题。",
+          "sourceUrl": "https://www.infzm.com/contents/117798",
+          "sourceLabel": "media",
+          "mediaName": "南方周末",
+          "sortOrder": 4,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-yh-005",
+          "date": "2017-03-26",
+          "type": "turn",
+          "title": "最高检派员调查",
+          "description": "最高人民检察院派员赴山东调查，山东高院通报已受理于欢案上诉。法律界展开\"正当防卫边界\"大讨论。",
+          "sourceUrl": "https://www.spp.gov.cn/spp/zdgz/201703/t20170326_184930.shtml",
+          "sourceLabel": "official",
+          "mediaName": "最高人民检察院",
+          "sortOrder": 5,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-yh-006",
+          "date": "2017-05-27",
+          "type": "progress",
+          "title": "二审公开开庭庭审直播",
+          "description": "山东省高级人民法院公开开庭审理于欢案二审，全程微博直播。庭审持续10余小时，检辩双方围绕\"正当防卫\"激烈辩论。",
+          "sourceUrl": "https://tv.cctv.com/2017/06/23/VIDEN23KNBGsYxXPN2Epu7MC170623.shtml",
+          "sourceLabel": "official",
+          "mediaName": "山东高院 / 央视",
+          "sortOrder": 6,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-yh-007",
+          "date": "2017-06-23",
+          "type": "result",
+          "title": "二审改判有期徒刑五年",
+          "description": "山东省高院二审宣判：撤销一审无期徒刑判决；认定于欢行为构成防卫过当，构成故意伤害罪，改判有期徒刑5年。判决书全文公开，成为司法文书公开标杆。",
+          "sourceUrl": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html?docId=358b4a55f3c24d8d9f83a80901035582",
+          "sourceLabel": "official",
+          "mediaName": "山东高院判决书",
+          "sortOrder": 7,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-yh-008",
+          "date": "2020-06-17",
+          "type": "result",
+          "title": "于欢刑满释放",
+          "description": "于欢因服刑期间表现良好获减刑，实际服刑约3年后刑满释放。2020年9月最高法发布正当防卫指导意见，于欢案被列为典型案例（指导案例93号）。",
+          "sourceUrl": "https://www.court.gov.cn/zixun-xiangqing-104262.html",
+          "sourceLabel": "official",
+          "mediaName": "最高人民法院",
+          "sortOrder": 8,
+          "aiGenerated": false
+        }
+      ],
+      "updatesCount": 8,
+      "credibility": "verified",
+      "aiGenerated": false,
+      "createdAt": "2025-07-18T00:00:00+08:00",
+      "updatedAt": "2025-07-18T00:00:00+08:00"
+    },
+    {
+      "id": "evt-hz-linshengbin",
+      "title": "杭州保姆纵火案与林生斌\"感动人物\"事件",
+      "summary": "2017年6月22日，杭州蓝色钱江小区发生火灾，林生斌的妻子朱小贞及三个子女全部遇难。保姆莫焕晶因赌博欠债放火被判处死刑。此后林生斌以\"深情丈夫/父亲\"形象在公众视野活跃四年，创立服装品牌\"童臻一生\"直播带货。2021年6月30日深夜他突然宣布再婚生女，舆论急转直下，被质疑\"消费逝者\"，从\"感动人物\"沦为\"全网公敌\"，成为互联网\"人设崩塌\"的典型事件。",
+      "status": "unresolved",
+      "subLabel": "watching",
+      "category": "社会",
+      "tags": [
+        "人设崩塌",
+        "互联网反转",
+        "网络舆论",
+        "公益争议"
+      ],
+      "keywords": [
+        "林生斌",
+        "杭州保姆纵火案",
+        "人设崩塌",
+        "童臻一生",
+        "蓝色钱江"
+      ],
+      "startDate": "2017-06-22",
+      "endDate": null,
+      "location": "浙江省杭州市钱江新城蓝色钱江小区",
+      "relatedPeople": [
+        "林生斌",
+        "莫焕晶",
+        "朱小贞"
+      ],
+      "sources": [
+        {
+          "title": "杭州市公安局\"6·22\"蓝色钱江放火案通报",
+          "url": "https://mp.weixin.qq.com/s/XQhGvLm3YSHhFmBRoHgd1Q",
+          "date": "2017-06-22"
+        },
+        {
+          "title": "杭州市中级人民法院莫焕晶案一审判决书",
+          "url": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html?docId=2a1b8c9d0e1f2a3b4c5d6e7f8a9b0c1d",
+          "date": "2018-02-09"
+        },
+        {
+          "title": "澎湃新闻：杭州蓝色钱江大火：一个家庭的毁灭",
+          "url": "https://www.thepaper.cn/newsDetail_forward_1709178",
+          "date": "2017-06-22"
+        },
+        {
+          "title": "南方周末：林生斌——从\"深情\"到\"人设崩塌\"",
+          "url": "https://www.infzm.com/contents/212993",
+          "date": "2021-07-05"
+        },
+        {
+          "title": "央视法治在线：杭州保姆纵火案专题",
+          "url": "https://tv.cctv.com/2018/02/09/VIDE7Fj8LhKzXxHqHhQcXpP0180209.shtml",
+          "date": "2018-02-09"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "tl-lsb-001",
+          "date": "2017-06-22",
+          "time": "05:00",
+          "type": "trigger",
+          "title": "蓝色钱江小区火灾致四死",
+          "description": "杭州市蓝色钱江小区18楼1802室突发火灾，林生斌妻子朱小贞及三个子女（11岁、9岁、6岁）全部遇难。保姆莫焕晶有重大嫌疑被警方控制。",
+          "sourceUrl": "https://www.thepaper.cn/newsDetail_forward_1709178",
+          "sourceLabel": "official",
+          "mediaName": "杭州公安 / 澎湃新闻",
+          "sortOrder": 1,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-lsb-002",
+          "date": "2017-06-28",
+          "type": "progress",
+          "title": "莫焕晶被刑事拘留",
+          "description": "杭州市公安局正式将莫焕晶刑事拘留，以涉嫌放火罪立案侦查。林生斌在事故现场悲痛欲绝的画面被媒体大量报道，全国为之同情。",
+          "sourceUrl": "https://www.thepaper.cn/newsDetail_forward_1709178",
+          "sourceLabel": "media",
+          "mediaName": "澎湃新闻",
+          "sortOrder": 2,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-lsb-003",
+          "date": "2017-07-10",
+          "type": "progress",
+          "title": "林生斌打造\"深情父亲\"人设",
+          "description": "林生斌开始在微博（@老婆孩子在天堂）持续发布悼念妻儿内容，粉丝迅速暴涨至千万，成为全国知名的\"悲伤父亲\"形象。",
+          "sourceUrl": "https://weibo.com/u/6313089171",
+          "sourceLabel": "party",
+          "mediaName": "林生斌微博",
+          "sortOrder": 3,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-lsb-004",
+          "date": "2018-02-09",
+          "type": "progress",
+          "title": "莫焕晶一审死刑判决",
+          "description": "杭州市中级人民法院一审判处莫焕晶死刑，剥夺政治权利终身。莫焕晶提出上诉。",
+          "sourceUrl": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html?docId=2a1b8c9d0e1f2a3b4c5d6e7f8a9b0c1d",
+          "sourceLabel": "official",
+          "mediaName": "杭州中院",
+          "sortOrder": 4,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-lsb-005",
+          "date": "2018-09-21",
+          "type": "result",
+          "title": "莫焕晶被执行死刑",
+          "description": "经最高人民法院核准，莫焕晶被执行死刑。刑事案件终结。林生斌此后以\"从悲恸中走出来的强者\"形象持续活跃。",
+          "sourceUrl": "https://www.thepaper.cn/newsDetail_forward_1709178",
+          "sourceLabel": "official",
+          "mediaName": "最高法",
+          "sortOrder": 5,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-lsb-006",
+          "date": "2019-06-15",
+          "type": "progress",
+          "title": "创立\"童臻一生\"品牌",
+          "description": "林生斌创立服装品牌\"童臻一生\"（以亡妻朱小贞和三个孩子的名义），直播带货年销售额达数千万元。频繁参与公益慈善活动获媒体好评。",
+          "sourceUrl": "https://www.infzm.com/contents/212993",
+          "sourceLabel": "media",
+          "mediaName": "南方周末",
+          "sortOrder": 6,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-lsb-007",
+          "date": "2021-06-30",
+          "time": "23:00",
+          "type": "turn",
+          "title": "宣布再婚生女引爆舆论海啸",
+          "description": "林生斌深夜微博发文宣布已再婚并生育一女取名\"暖暖\"，全网地震。热搜前十占5条以上，\"深情\"人设全面崩塌。",
+          "sourceUrl": "https://www.infzm.com/contents/212993",
+          "sourceLabel": "party",
+          "mediaName": "林生斌微博",
+          "sortOrder": 7,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-lsb-008",
+          "date": "2021-07-02",
+          "type": "turn",
+          "title": "亡妻家属发文指控",
+          "description": "朱小贞哥哥\"朱先生\"公开指责林生斌财产分配不公。多条指控浮出水面：公益基金未依法注册、承诺捐款未兑现、消费逝者获利。",
+          "sourceUrl": "https://www.infzm.com/contents/212993",
+          "sourceLabel": "media",
+          "mediaName": "南方周末",
+          "sortOrder": 8,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-lsb-009",
+          "date": "2021-07-08",
+          "type": "progress",
+          "title": "林生斌连发5条微博辩解",
+          "description": "林生斌连发5条微博解释，承认组建新家庭，否认消费逝者和慈善造假。但解释未能平息舆论。此后其账号逐渐停止更新。",
+          "sourceUrl": "https://www.infzm.com/contents/212993",
+          "sourceLabel": "party",
+          "mediaName": "林生斌微博",
+          "sortOrder": 9,
+          "aiGenerated": false
+        },
+        {
+          "id": "tl-lsb-010",
+          "date": "2021-08-15",
+          "type": "result",
+          "title": "舆论降温，林生斌淡出视野",
+          "description": "杭州市有关部门未认定林生斌存在违法行为。林生斌基本淡出公众视野，但其事件成为互联网\"人设崩塌\"经典案例被反复讨论。",
+          "sourceUrl": "https://www.infzm.com/contents/212993",
+          "sourceLabel": "media",
+          "mediaName": "媒体报道",
+          "sortOrder": 10,
+          "aiGenerated": false
+        }
+      ],
+      "updatesCount": 10,
+      "credibility": "verified",
+      "aiGenerated": false,
+      "createdAt": "2025-07-18T00:00:00+08:00",
+      "updatedAt": "2025-07-18T00:00:00+08:00"
+    },
+    {
+      "id": "evt-mock-data-leak",
+      "title": "某科技公司数据泄露事件",
+      "summary": "2025年6月，某知名科技公司被曝3.2亿条用户数据在暗网流通，涉及姓名、手机号、身份证号等敏感信息。",
+      "status": "ongoing",
+      "category": "科技",
+      "tags": [
+        "数据泄露",
+        "安全事件",
+        "个人信息保护",
+        "暗网"
+      ],
+      "keywords": [
+        "数据泄露",
+        "暗网",
+        "个人信息",
+        "安全事件"
+      ],
+      "startDate": "2025-06-08",
+      "endDate": null,
+      "location": "中国·北京",
+      "relatedPeople": [],
+      "sources": [
+        {
+          "title": "暗网数据泄露监测报告",
+          "url": "https://example.com/news/dark-web-data-breach-20250608",
+          "date": "2025-06-08"
+        },
+        {
+          "title": "公司官方声明",
+          "url": "https://example.com/news/company-response-20250610",
+          "date": "2025-06-10"
+        },
+        {
+          "title": "网信办调查通报",
+          "url": "https://example.com/news/cyberspace-investigation-20250701",
+          "date": "2025-07-01"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "n001-1111-1111-1111-111111111111",
+          "date": "2025-06-08",
+          "type": "trigger",
+          "title": "暗网发现3.2亿条数据出售",
+          "description": "暗网监控团队发现 3.2 亿条疑似该科技公司的用户数据在暗网论坛公开出售，标价 15 BTC。",
+          "sourceUrl": "https://example.com/news/dark-web-data-breach-20250608",
+          "sourceLabel": "media",
+          "mediaName": "暗网监控报告",
+          "sortOrder": 1
+        },
+        {
+          "id": "n001-2222-2222-2222-222222222222",
+          "date": "2025-06-10",
+          "type": "progress",
+          "title": "公司承认漏洞启动应急",
+          "description": "该公司发布官方声明，承认部分旧数据库存在安全漏洞，已启动应急响应并报案。",
+          "sourceUrl": "https://example.com/news/company-response-20250610",
+          "sourceLabel": "official",
+          "mediaName": "公司公告",
+          "sortOrder": 2
+        },
+        {
+          "id": "n001-3333-3333-3333-333333333333",
+          "date": "2025-06-20",
+          "type": "turn",
+          "title": "审计发现2023年框架升级漏洞",
+          "description": "第三方安全审计发现漏洞源于 2023 年一次未记录的后端框架升级，该升级移除了旧版加密中间件。",
+          "sourceUrl": "https://example.com/news/audit-report-20250620",
+          "sourceLabel": "media",
+          "mediaName": "审计报告",
+          "sortOrder": 3
+        },
+        {
+          "id": "n001-4444-4444-4444-444444444444",
+          "date": "2025-07-01",
+          "type": "progress",
+          "title": "网信办立案调查",
+          "description": "网信办宣布对该事件正式立案调查，要求公司限期提交完整数据资产清单。",
+          "sourceUrl": "https://example.com/news/cyberspace-investigation-20250701",
+          "sourceLabel": "official",
+          "mediaName": "网信办",
+          "sortOrder": 4
+        },
+        {
+          "id": "n001-5555-5555-5555-555555555555",
+          "date": "2025-07-15",
+          "type": "progress",
+          "title": "开始通知受影响用户",
+          "description": "该公司开始分批通知受影响用户，并提供为期 2 年的信用监控服务。数据修复预计 Q4 完成。",
+          "sourceUrl": "https://example.com/news/user-notification-20250715",
+          "sourceLabel": "media",
+          "mediaName": "媒体报道",
+          "sortOrder": 5
+        }
+      ],
+      "updatesCount": 5,
+      "credibility": "multi_source",
+      "aiGenerated": false,
+      "createdAt": "2025-06-08T09:00:00+08:00",
+      "updatedAt": "2025-07-15T18:30:00+08:00"
+    },
+    {
+      "id": "evt-mock-flood",
+      "title": "西南地区特大暴雨洪涝灾害",
+      "summary": "2025年7月，西南地区遭遇百年一遇持续强降雨，引发严重洪涝和地质灾害，受灾群众超 50 万人。",
+      "status": "resolved",
+      "category": "社会",
+      "tags": [
+        "洪涝",
+        "应急救援",
+        "极端天气"
+      ],
+      "keywords": [
+        "暴雨",
+        "洪涝",
+        "西南灾害",
+        "应急救援"
+      ],
+      "startDate": "2025-07-10",
+      "endDate": "2025-07-17",
+      "location": "中国·西南地区（川、渝、黔交界）",
+      "relatedPeople": [],
+      "sources": [
+        {
+          "title": "中央气象台暴雨红色预警",
+          "url": "https://example.com/weather/rainstorm-warning-20250710",
+          "date": "2025-07-10"
+        },
+        {
+          "title": "应急管理部救援通报",
+          "url": "https://example.com/news/national-rescue-20250715",
+          "date": "2025-07-15"
+        },
+        {
+          "title": "国家防总防汛响应通报",
+          "url": "https://example.com/news/flood-emergency-20250712",
+          "date": "2025-07-12"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "n002-1111-1111-1111-111111111111",
+          "date": "2025-07-10",
+          "type": "trigger",
+          "title": "持续强降雨突破历史极值",
+          "description": "西南地区开始出现持续强降雨天气，局地 24 小时降雨量突破 300mm，多地发布暴雨红色预警。",
+          "sourceUrl": "https://example.com/weather/rainstorm-warning-20250710",
+          "sourceLabel": "official",
+          "mediaName": "中央气象台",
+          "sortOrder": 1
+        },
+        {
+          "id": "n002-2222-2222-2222-222222222222",
+          "date": "2025-07-12",
+          "type": "progress",
+          "title": "多地内涝交通通信中断",
+          "description": "河水暴涨致 3 县城区内涝严重，部分乡镇通信中断。国家防总启动防汛Ⅲ级应急响应。",
+          "sourceUrl": "https://example.com/news/flood-emergency-20250712",
+          "sourceLabel": "official",
+          "mediaName": "国家防总",
+          "sortOrder": 2
+        },
+        {
+          "id": "n002-3333-3333-3333-333333333333",
+          "date": "2025-07-14",
+          "type": "turn",
+          "title": "强降雨转移重庆方向",
+          "description": "强降雨转移至重庆方向，嘉陵江流域出现超保证水位洪水，灾区范围扩大到渝西 6 区县。",
+          "sourceUrl": "https://example.com/news/rain-shift-chongqing-20250714",
+          "sourceLabel": "official",
+          "mediaName": "应急管理部",
+          "sortOrder": 3
+        },
+        {
+          "id": "n002-4444-4444-4444-444444444444",
+          "date": "2025-07-15",
+          "type": "progress",
+          "title": "国家级救援队赶赴灾区",
+          "description": "应急管理部调派 5 支国家级专业救援队、2000 余名官兵赶赴灾区。灾区设立临时安置点 180 个。",
+          "sourceUrl": "https://example.com/news/national-rescue-20250715",
+          "sourceLabel": "official",
+          "mediaName": "应急管理部",
+          "sortOrder": 4
+        },
+        {
+          "id": "n002-5555-5555-5555-555555555555",
+          "date": "2025-07-16",
+          "type": "progress",
+          "title": "转移安置超12万灾民",
+          "description": "受灾群众转移安置超 12 万人。灾区急需饮用水、食品、帐篷等物资，多家基金会发起募捐。",
+          "sourceUrl": "https://example.com/news/relief-supplies-20250716",
+          "sourceLabel": "media",
+          "mediaName": "媒体报道",
+          "sortOrder": 5
+        },
+        {
+          "id": "n002-6666-6666-6666-666666666666",
+          "date": "2025-07-17",
+          "type": "result",
+          "title": "降雨减弱转入灾后重建",
+          "description": "降雨强度减弱，各主要江河水位缓慢回落。应急响应降为Ⅳ级，工作重心转入灾后重建和防疫。",
+          "sourceUrl": "https://example.com/news/post-disaster-20250717",
+          "sourceLabel": "official",
+          "mediaName": "应急管理部",
+          "sortOrder": 6
+        }
+      ],
+      "updatesCount": 6,
+      "credibility": "verified",
+      "aiGenerated": false,
+      "createdAt": "2025-07-12T06:00:00+08:00",
+      "updatedAt": "2025-07-17T22:00:00+08:00"
+    },
+    {
+      "id": "evt-mock-streamer",
+      "title": "知名游戏主播合同纠纷案",
+      "summary": "2025年4月，坐拥 2000 万粉丝的顶流游戏主播与老东家因竞业限制条款对簿公堂，引发直播行业合同规范大讨论。",
+      "status": "resolved",
+      "category": "娱乐",
+      "tags": [
+        "合同纠纷",
+        "竞业限制",
+        "主播权益"
+      ],
+      "keywords": [
+        "游戏主播",
+        "竞业限制",
+        "合同纠纷",
+        "直播行业"
+      ],
+      "startDate": "2025-04-03",
+      "endDate": "2025-06-25",
+      "location": "中国·上海",
+      "relatedPeople": [],
+      "sources": [
+        {
+          "title": "主播社交平台声明",
+          "url": "https://example.com/news/streamer-contract-20250403",
+          "date": "2025-04-03"
+        },
+        {
+          "title": "老东家官方声明",
+          "url": "https://example.com/news/studio-response-20250410",
+          "date": "2025-04-10"
+        },
+        {
+          "title": "法院调解书",
+          "url": "https://example.com/news/mediation-result-20250625",
+          "date": "2025-06-25"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "n003-1111-1111-1111-111111111111",
+          "date": "2025-04-03",
+          "type": "trigger",
+          "title": "主播爆料遭天价索赔",
+          "description": "某顶流游戏主播在社交平台发文称遭老东家天价索赔 1.2 亿元，指控其违反竞业限制协议。",
+          "sourceUrl": "https://example.com/news/streamer-contract-20250403",
+          "sourceLabel": "party",
+          "mediaName": "主播社交平台",
+          "sortOrder": 1
+        },
+        {
+          "id": "n003-2222-2222-2222-222222222222",
+          "date": "2025-04-10",
+          "type": "progress",
+          "title": "老东家称已构成严重违约",
+          "description": "老东家发布声明，称该主播在合约期内擅自接入第三方直播平台，已构成严重违约，索赔金额有合同依据。",
+          "sourceUrl": "https://example.com/news/studio-response-20250410",
+          "sourceLabel": "official",
+          "mediaName": "公司声明",
+          "sortOrder": 2
+        },
+        {
+          "id": "n003-3333-3333-3333-333333333333",
+          "date": "2025-05-06",
+          "type": "turn",
+          "title": "法院驳回管辖异议",
+          "description": "法院一审驳回主播管辖权异议。案件进入实体审理，双方交换证据，竞业限制条款的合理性成焦点。",
+          "sourceUrl": "https://example.com/news/court-first-instance-20250506",
+          "sourceLabel": "media",
+          "mediaName": "媒体报道",
+          "sortOrder": 3
+        },
+        {
+          "id": "n003-4444-4444-4444-444444444444",
+          "date": "2025-06-10",
+          "type": "progress",
+          "title": "庭审曝光合同争议细节",
+          "description": "庭审曝光合同细节：竞业限制期 24 个月、补偿金仅为底薪 30%。多名行业主播声援，称类似条款普遍存在。",
+          "sourceUrl": "https://example.com/news/trial-details-20250610",
+          "sourceLabel": "media",
+          "mediaName": "媒体报道",
+          "sortOrder": 4
+        },
+        {
+          "id": "n003-5555-5555-5555-555555555555",
+          "date": "2025-06-25",
+          "type": "result",
+          "title": "法院调解赔付1800万元",
+          "description": "法院作出调解：主播支付违约金 1800 万元，竞业限制条款调整为 12 个月、补偿金提高至底薪的 60%。双方接受调解。",
+          "sourceUrl": "https://example.com/news/mediation-result-20250625",
+          "sourceLabel": "official",
+          "mediaName": "法院调解书",
+          "sortOrder": 5
+        }
+      ],
+      "updatesCount": 5,
+      "credibility": "verified",
+      "aiGenerated": false,
+      "createdAt": "2025-04-03T10:00:00+08:00",
+      "updatedAt": "2025-06-25T16:00:00+08:00"
+    }
+  ],
+  "categories": [
+    "社会",
+    "法治",
+    "科技",
+    "娱乐"
+  ],
+  "tags": [
+    "烂尾楼",
+    "维权",
+    "民生",
+    "正当防卫",
+    "高利贷",
+    "舆论监督",
+    "司法改革",
+    "人设崩塌",
+    "互联网反转",
+    "网络舆论",
+    "公益争议",
+    "数据泄露",
+    "安全事件",
+    "个人信息保护",
+    "暗网",
+    "洪涝",
+    "应急救援",
+    "极端天气",
+    "合同纠纷",
+    "竞业限制",
+    "主播权益"
+  ],
+  "lastUpdated": "2025-07-18T12:00:00+08:00",
+  "version": "1.1.0"
+}
