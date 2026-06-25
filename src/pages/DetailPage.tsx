@@ -5,8 +5,11 @@ import { NODE_TYPE_CONFIG } from '../types'
 import { getEventById } from '../data/loader'
 import StatusBadge from '../components/StatusBadge'
 import TimelineNode from '../components/TimelineNode'
+import KeyDataCard from '../components/KeyDataCard'
 import LoadingSpinner from '../components/LoadingSpinner'
 import { formatDuration, daysAgo, highlightText } from '../utils/constants'
+import { useViewCount } from '../hooks/useViewCount'
+import { useSEO } from '../hooks/useSEO'
 
 export default function DetailPage() {
   const { id } = useParams<{ id: string }>()
@@ -59,6 +62,13 @@ export default function DetailPage() {
       }
     }
   }, [loading])
+
+  // 浏览热度 + SEO
+  const { count: viewCount } = useViewCount(id)
+  useSEO(
+    event?.title,
+    event ? `${event.summary.slice(0, 150)} — 共收录 ${event.timeline.length} 条时间线记录` : undefined
+  )
 
   const { sortedTimeline, typeCounts } = useMemo(() => {
     if (!event) return { sortedTimeline: [], typeCounts: {} as Record<string, number> }
@@ -113,6 +123,7 @@ export default function DetailPage() {
           <div className="flex items-center gap-1.5"><span>⏱️</span> {duration}</div>
           <div className="flex items-center gap-1.5"><span>🕐</span> {daysAgo(event.updatedAt)}更新</div>
           <div className="flex items-center gap-1.5"><span>📌</span> {sortedTimeline.length} 条记录</div>
+          <div className="flex items-center gap-1.5"><span>👁️</span> {viewCount} 次浏览</div>
         </div>
 
         {event.tags.length > 0 && (
@@ -142,6 +153,9 @@ export default function DetailPage() {
           ))}
         </div>
       )}
+
+      {/* 关键数据卡片 */}
+      <KeyDataCard event={event} />
 
       {/* 时间线 */}
       <div className="flex items-center gap-3 mb-6">

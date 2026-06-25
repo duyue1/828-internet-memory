@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import type { Event } from '../types'
 import StatusBadge from './StatusBadge'
 import { formatDuration, daysAgo, highlightText } from '../utils/constants'
+import { getAllViewCounts } from '../hooks/useViewCount'
 
 interface Props {
   event: Event
@@ -9,8 +10,12 @@ interface Props {
   keyword?: string
 }
 
+// 获取浏览量（在组件外缓存，避免每次渲染重算）
+const viewCounts = getAllViewCounts()
+
 export default function EventCard({ event, index = 0, keyword = '' }: Props) {
   const timeline = event.timeline
+  const views = viewCounts[event.id] || 0
   const lastEntry = timeline[timeline.length - 1]
   const timeSpan = event.endDate
     ? `${event.startDate} ~ ${event.endDate}`
@@ -115,6 +120,7 @@ export default function EventCard({ event, index = 0, keyword = '' }: Props) {
         <div className="flex items-center justify-between text-[11px] text-gray-400 dark:text-dark-muted border-t border-gray-50 dark:border-dark-border/50 pt-2.5 mt-1">
           <span className="truncate">📅 {timeSpan}</span>
           <div className="flex items-center gap-2 flex-shrink-0">
+            {views > 0 && <span>👁️ {views}</span>}
             <span>{duration}</span>
             <span className="text-gray-200 dark:text-dark-border">·</span>
             <span>{event.updatesCount || timeline.length} 条</span>

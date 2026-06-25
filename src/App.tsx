@@ -1,8 +1,12 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
-import { useEffect, useState } from 'react'
+import { lazy, Suspense, useEffect, useState } from 'react'
 import Layout from './components/Layout'
-import HomePage from './pages/HomePage'
-import DetailPage from './pages/DetailPage'
+import LoadingSpinner from './components/LoadingSpinner'
+
+// 路由级懒加载：首页代码随首页加载，详情页代码仅在访问详情页时加载
+const HomePage = lazy(() => import('./pages/HomePage'))
+const DetailPage = lazy(() => import('./pages/DetailPage'))
+const NotFound = lazy(() => import('./pages/NotFound'))
 
 /** 页面过渡包装 */
 function PageTransition({ children }: { children: React.ReactNode }) {
@@ -30,19 +34,13 @@ export default function App() {
   return (
     <Layout>
       <PageTransition>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/event/:id" element={<DetailPage />} />
-          <Route path="*" element={
-            <div className="max-w-3xl mx-auto px-4 py-24 text-center">
-              <div className="text-5xl mb-4">🤔</div>
-              <h2 className="text-lg font-semibold text-gray-700 dark:text-dark-text mb-2">页面不存在</h2>
-              <a href="/" className="text-sm text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 underline">
-                返回首页
-              </a>
-            </div>
-          } />
-        </Routes>
+        <Suspense fallback={<LoadingSpinner />}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/event/:id" element={<DetailPage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Suspense>
       </PageTransition>
     </Layout>
   )

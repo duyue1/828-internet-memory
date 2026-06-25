@@ -5,6 +5,7 @@ import SearchBar from '../components/SearchBar'
 import FilterPanel from '../components/FilterPanel'
 import LoadingSpinner from '../components/LoadingSpinner'
 import { SITE_NAME, SITE_TAGLINE, SITE_DESC } from '../utils/constants'
+import { useSEO } from '../hooks/useSEO'
 
 /** 回到顶部按钮 */
 function BackToTop() {
@@ -32,6 +33,8 @@ function BackToTop() {
 }
 
 export default function HomePage() {
+  useSEO()
+
   const {
     events,
     allEvents,
